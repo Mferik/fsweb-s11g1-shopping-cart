@@ -4,8 +4,9 @@ import { ScNav } from "./scParts";
 import { useContext } from "react";
 import { CartContext } from "../contexts/CartContext";
 
+
 const Navigation = () => {
-  const { cart } = useContext(CartContext);
+  const {cart} = useContext(CartContext)
   return (
     <ScNav>
       <nav className="content">
